@@ -1,0 +1,19 @@
+# Large data directories — deposited separately on Zenodo/figshare
+data/
+ncrna/
+ncrna_mm/
+ncrna_hs/
+sample_data/
+deseq/
+trf_mm/
+trf_hs/
+refs/
+figures/
+
+# R session files
+.RData
+.Rhistory
+.Rproj.user/
+
+# macOS
+.DS_Store
