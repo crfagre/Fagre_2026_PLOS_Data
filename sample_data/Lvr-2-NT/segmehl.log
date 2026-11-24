@@ -1,0 +1,28 @@
+[SEGEMEHL] Mon Feb  2 12:08:15 2026: reading queries in 'Lvr-2-NT_R1.trim2.fastq.gz'.
+[SEGEMEHL] Mon Feb  2 12:08:20 2026: 2435416 query sequences found.
+[SEGEMEHL] Mon Feb  2 12:08:20 2026: reading mates in 'Lvr-2-NT_R2.trim2.fastq.gz'.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: 2435416 mate sequences found.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading database sequences.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: 3150 database sequences found.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: total length of db sequences: 308584
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: assigning all reads to default read group 'A1'.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: additional read group default values '	SM:sample1	LB:library1	PU:unit1	PL:illumina'
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reads assigned to read group 'A1'
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: compiled sam header.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading suffix array '../Refs/mm_hairpin_tRNA_snoRNA.idx' from disk.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading lcpc/vtab.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading childtab.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading suflinks.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading lsint id.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: read suffix array '../Refs/mm_hairpin_tRNA_snoRNA.idx' with 311734 elements.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: md5 keys of index and db match.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: reading the suffix array has taken 0.000000 seconds.
+[SEGEMEHL] Mon Feb  2 12:08:24 2026: starting 10 threads.
+[SEGEMEHL] Mon Feb  2 12:09:42 2026: threaded matching w/ suffixarray has taken 78.000000 seconds.
+[SEGEMEHL] Mon Feb  2 12:09:42 2026: Mapping stats:
+	total	mapped	(%)	unique	(%)	multi	(%)	split	(%)
+all	4870832	1901694	39.04%	1093982	22.46%	807712	16.58%	0	0.00%
+pair	2435416	928141	38.11%	524760	21.55%	403381	16.56%	0	0.00%
+[SEGEMEHL] Mon Feb  2 12:09:42 2026: 
+Goodbye.
+ "Die Ficker!" (Thommy)

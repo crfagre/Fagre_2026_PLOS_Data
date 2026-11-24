@@ -1,0 +1,41 @@
+java -ea -Xmx13034m -Xms13034m -cp /vast/palmer/apps/avx2/software/BBMap/38.90-GCCcore-10.2.0/current/ clump.Clumpify in=Cer-2-BS_R1.trim.fastq.gz out=Cer-2-BS_R1.dedupe.fastq.gz reorder=t dedupe=t
+Executing clump.Clumpify [in=Cer-2-BS_R1.trim.fastq.gz, out=Cer-2-BS_R1.dedupe.fastq.gz, reorder=t, dedupe=t]
+Version 38.90
+
+Read Estimate:          15333560
+Memory Estimate:        6918 MB
+Memory Available:       10650 MB
+Set groups to 1
+Executing clump.KmerSort1 [in1=Cer-2-BS_R1.trim.fastq.gz, in2=, out1=Cer-2-BS_R1.dedupe.fastq.gz, out2=, groups=1, ecco=false, rename=false, shortname=f, unpair=false, repair=false, namesort=false, ow=true, reorder=t, dedupe=t]
+
+Making comparator.
+Made a comparator with k=31, seed=1, border=1, hashes=4
+Starting cris 0.
+Fetching reads.
+Making fetch threads.
+Starting threads.
+Waiting for threads.
+Fetch time: 	5.527 seconds.
+Closing input stream.
+Combining thread output.
+Combine time: 	0.063 seconds.
+Sorting.
+Sort time: 	1.783 seconds.
+Making clumps.
+Clump time: 	8.055 seconds.
+Deduping.
+Dedupe time: 	0.782 seconds.
+Writing.
+Waiting for writing to complete.
+Write time: 	1.300 seconds.
+Done!
+Time:                         	17.697 seconds.
+Reads Processed:        10244k 	578.87k reads/sec
+Bases Processed:          333m 	18.87m bases/sec
+
+Reads In:             10244234
+Clumps Formed:         1737021
+Duplicates Found:      8254634
+Reads Out:             1989600
+Bases Out:            67993323
+Total time: 	17.940 seconds.

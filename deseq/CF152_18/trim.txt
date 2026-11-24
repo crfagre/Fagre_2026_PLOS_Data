@@ -1,0 +1,28 @@
+java -ea -Xmx403658m -Xms403658m -cp /vast/palmer/apps/avx2/software/BBMap/38.90-GCCcore-10.2.0/current/ jgi.BBDuk in1=CF152_18_B22NFJCLT4_L001_R1_001.fastq.gz in2=CF152_18_B22NFJCLT4_L001_R2_001.fastq.gz minlen=20 ref=../Refs/truseq_adapt.fa out1=CF152_18_R1.trim.fastq.gz out2=CF152_18_R2.trim.fastq.gz stats=CF152_18/bbduk.txt ktrim=r k=33 hdist=1 threads=8
+Executing jgi.BBDuk [in1=CF152_18_B22NFJCLT4_L001_R1_001.fastq.gz, in2=CF152_18_B22NFJCLT4_L001_R2_001.fastq.gz, minlen=20, ref=../Refs/truseq_adapt.fa, out1=CF152_18_R1.trim.fastq.gz, out2=CF152_18_R2.trim.fastq.gz, stats=CF152_18/bbduk.txt, ktrim=r, k=33, hdist=1, threads=8]
+Version 38.90
+
+Set threads to 8
+***********************   WARNING   ***********************
+WARNING: When kmer-trimming or masking, the maximum value of K is 31.
+K has been reduced from 33 to 31.
+***********************************************************
+0.028 seconds.
+Initial:
+Memory: max=423289m, total=423289m, free=423222m, used=67m
+
+Added 455 kmers; time: 	0.020 seconds.
+Memory: max=423289m, total=423289m, free=423087m, used=202m
+
+Input is being processed as paired
+Started output streams:	0.025 seconds.
+Processing time:   		260.806 seconds.
+
+Input:                  	56076946 reads 		5663771546 bases.
+KTrimmed:               	1494305 reads (2.66%) 	69474249 bases (1.23%)
+Total Removed:          	2114 reads (0.00%) 	69474249 bases (1.23%)
+Result:                 	56074832 reads (100.00%) 	5594297297 bases (98.77%)
+
+Time:                         	260.855 seconds.
+Reads Processed:      56076k 	214.97k reads/sec
+Bases Processed:       5663m 	21.71m bases/sec

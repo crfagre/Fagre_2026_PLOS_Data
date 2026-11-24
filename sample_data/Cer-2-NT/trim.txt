@@ -1,0 +1,24 @@
+java -ea -Xmx132445m -Xms132445m -cp /vast/palmer/apps/avx2/software/BBMap/38.90-GCCcore-10.2.0/current/ jgi.BBDuk in=Cer-2-NT_R1_001.fastq.gz minlen=30 maxlen=100 ref=../Refs/truseq_adapt.fa out=Cer-2-NT_R1.trim.fastq.gz stats=bbduk/Cer-2-NT.txt ktrim=r k=25 hdist=1 threads=10
+Executing jgi.BBDuk [in=Cer-2-NT_R1_001.fastq.gz, minlen=30, maxlen=100, ref=../Refs/truseq_adapt.fa, out=Cer-2-NT_R1.trim.fastq.gz, stats=bbduk/Cer-2-NT.txt, ktrim=r, k=25, hdist=1, threads=10]
+Version 38.90
+
+Set threads to 10
+0.031 seconds.
+Initial:
+Memory: max=138881m, total=138881m, free=138814m, used=67m
+
+Added 1241 kmers; time: 	0.023 seconds.
+Memory: max=138881m, total=138881m, free=138680m, used=201m
+
+Input is being processed as unpaired
+Started output streams:	0.018 seconds.
+Processing time:   		53.714 seconds.
+
+Input:                  	49480186 reads 		7422027900 bases.
+KTrimmed:               	48354792 reads (97.73%) 	6356441702 bases (85.64%)
+Total Removed:          	22422798 reads (45.32%) 	6525251939 bases (87.92%)
+Result:                 	27057388 reads (54.68%) 	896775961 bases (12.08%)
+
+Time:                         	53.762 seconds.
+Reads Processed:      49480k 	920.36k reads/sec
+Bases Processed:       7422m 	138.05m bases/sec

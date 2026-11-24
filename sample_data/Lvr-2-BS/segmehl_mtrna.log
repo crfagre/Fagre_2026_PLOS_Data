@@ -1,0 +1,25 @@
+[SEGEMEHL] Tue Mar  3 21:43:46 2026: reading queries in 'Lvr-2-BS.rrna.fastq'.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: 1967754 query sequences found.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading database sequences.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: 239 database sequences found.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: total length of db sequences: 18141
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: assigning all reads to default read group 'A1'.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: additional read group default values '	SM:sample1	LB:library1	PU:unit1	PL:illumina'
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reads assigned to read group 'A1'
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: compiled sam header.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading suffix array '../Refs/mm_tRNA/mm39_mature_tRNAs_clean.idx' from disk.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading lcpc/vtab.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading childtab.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading suflinks.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading lsint id.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: read suffix array '../Refs/mm_tRNA/mm39_mature_tRNAs_clean.idx' with 18380 elements.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: md5 keys of index and db match.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: reading the suffix array has taken 0.000000 seconds.
+[SEGEMEHL] Tue Mar  3 21:43:49 2026: starting 10 threads.
+[SEGEMEHL] Tue Mar  3 21:44:27 2026: threaded matching w/ suffixarray has taken 38.000000 seconds.
+[SEGEMEHL] Tue Mar  3 21:44:27 2026: Mapping stats:
+	total	mapped	(%)	unique	(%)	multi	(%)	split	(%)
+all	1967754	173585	8.82%	68009	3.46%	105576	5.37%	0	0.00%
+[SEGEMEHL] Tue Mar  3 21:44:27 2026: 
+Goodbye.
+ "Stefan Kurtz uses suffix arrays to fix his bike." (A. Torda)
